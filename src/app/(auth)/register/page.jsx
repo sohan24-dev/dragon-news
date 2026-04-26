@@ -41,7 +41,7 @@ const RegisterPage = () => {
                         {errors.name && <p className="text-red-500">{errors.name.message}</p>}
                     </fieldset>
                     <fieldset className="fieldset">
-                        <legend className="fieldset-legend">Photo URL</legend>
+                        <legend className="fieldset-legend">Photo URL (optional)</legend>
                         <input  {...register("photo")} type="text" className="input" placeholder="Type here photo url" />  
                     </fieldset>
                     <fieldset className="fieldset">
